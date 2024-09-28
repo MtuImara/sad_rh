@@ -1,0 +1,20 @@
+2024-08-22 16:11:15 - Données manquantes dans le fichier CSV: 2024-01-31;David;08:08:00;16:30:00
+2024-08-22 16:11:15 - Données manquantes dans le fichier CSV: 2024-01-31;Luc;08:08:00;16:30:00
+2024-08-22 16:14:56 - Données manquantes dans le fichier CSV: date;noms;heure_entree;heure_sortie
+2024-08-22 16:14:56 - Données manquantes dans le fichier CSV: 31/01/2024;David;08:08:00;16:30:00
+2024-08-22 16:14:56 - Données manquantes dans le fichier CSV: 31/01/2024;Luc;08:08:00;16:30:00
+2024-08-22 16:17:05 - Données manquantes dans le fichier CSV: date;noms;heure_entree;heure_sortie
+2024-08-22 16:17:05 - Données manquantes dans le fichier CSV: 31/01/2024;David;08:08:00;16:30:00
+2024-08-22 16:17:05 - Données manquantes dans le fichier CSV: 31/01/2024;Luc;08:08:00;16:30:00
+2024-08-22 16:32:24 - Aucun membre trouvé pour le nom: noms
+2024-08-23 13:03:21 - Aucun membre trouvé pour le nom: noms
+2024-08-23 13:03:21 - Aucun membre trouvé pour le nom: Chimanuka eddy
+2024-08-23 13:03:21 - Aucun membre trouvé pour le nom: Murhomulume Edouard
+2024-08-23 13:03:21 - Aucun membre trouvé pour le nom: EDDYkùmk jojo
+2024-08-23 13:03:33 - Aucun membre trouvé pour le nom: noms
+2024-08-23 13:03:33 - Aucun membre trouvé pour le nom: Chimanuka eddy
+2024-08-23 13:03:33 - Aucun membre trouvé pour le nom: Murhomulume Edouard
+2024-08-23 13:03:33 - Aucun membre trouvé pour le nom: EDDYkùmk jojo
+2024-08-23 13:05:13 - Aucun membre trouvé pour le nom: noms
+2024-09-04 08:54:50 - Erreur lors de l'upload du fichier.
+2024-09-04 08:54:57 - Erreur lors de l'upload du fichier.
