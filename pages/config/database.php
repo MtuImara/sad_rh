@@ -1,9 +1,9 @@
 <?php
 // Paramètres de connexion à la base de données
-$host = 'localhost';
+$host = 'junction.proxy.rlwy.net';
 $username = 'root';
-$password = 'Asyst@123';
-$database = 'final_tpo';
+$password = 'QfovxIjUlrymmxQQLhGjoHZTRcnXqdDn';
+$database = 'railway';
 
 // Connexion à MySQL
 $conn = mysqli_connect($host, $username, $password, $database);
