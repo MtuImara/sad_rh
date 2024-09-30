@@ -4,9 +4,11 @@ $host = 'junction.proxy.rlwy.net';
 $username = 'root';
 $password = 'QfovxIjUlrymmxQQLhGjoHZTRcnXqdDn';
 $database = 'railway';
+$port = "23784";
+// $charset = 'utf8mb4';
 
 // Connexion à MySQL
-$conn = mysqli_connect($host, $username, $password, $database);
+$conn = mysqli_connect($host, $username, $password, $database, $port);
 
 // Vérifier la connexion
 if (!$conn) {
