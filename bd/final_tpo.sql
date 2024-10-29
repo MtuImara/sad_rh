@@ -169,7 +169,7 @@ CREATE TABLE IF NOT EXISTS `membres` (
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `photo` varchar(255) DEFAULT NULL,
-  `type_contrat` enum('CDD','CDI') DEFAULT 'CDD',
+  `type_contrat` enum('CDD','CDI', 'Freelance', 'Stage', 'Intérim', 'Archivé') DEFAULT 'CDD',
   `fonction` varchar(100) DEFAULT NULL,
   `date_entree` date DEFAULT NULL,
   `postnom` varchar(255) DEFAULT NULL,

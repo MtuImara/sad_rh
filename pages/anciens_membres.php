@@ -3,7 +3,7 @@
 require_once 'cache.php';
 $role = '';
 // Récupérer les anciens membres depuis la base de données
-$sql = "SELECT * FROM anciens_membre";
+$sql = "SELECT * FROM membres WHERE type_contrat='Archivé'";
 $result = mysqli_query($conn, $sql);
 
 // Vérifier les erreurs de requête

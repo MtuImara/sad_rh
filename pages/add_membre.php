@@ -205,6 +205,9 @@ mysqli_close($conn);
                                     <select class="form-control" id="type_contrat" name="type_contrat" required onchange="toggleDateFields(this.value)">
                                         <option value="CDI" <?php echo ($initial_data['type_contrat'] == 'CDI') ? 'selected' : ''; ?>>CDI</option>
                                         <option value="CDD" <?php echo ($initial_data['type_contrat'] == 'CDD') ? 'selected' : ''; ?>>CDD</option>
+                                        <option value="Freelance" <?php echo ($initial_data['type_contrat'] == 'Freelance') ? 'selected' : ''; ?>>Freelance</option>
+                                        <option value="Stage" <?php echo ($initial_data['type_contrat'] == 'Stage') ? 'selected' : ''; ?>>Stage</option>
+                                        <option value="Intérim" <?php echo ($initial_data['type_contrat'] == 'Intérim') ? 'selected' : ''; ?>>Intérim</option>
                                     </select>
                                 </div>
                             </div>
@@ -247,7 +250,7 @@ mysqli_close($conn);
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
         function toggleDateFields(value) {
-            if (value === 'CDD') {
+            if (value === 'CDD' || value === 'CDI' || value === 'Freelance' || value === 'Stage' || value === 'Intérim') {
                 document.getElementById('datesContrat').style.display = 'block';
             } else {
                 document.getElementById('datesContrat').style.display = 'none';
